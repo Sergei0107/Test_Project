@@ -1,0 +1,56 @@
+.indent {
+    padding-left: 20px;
+}
+
+.interests1Block {
+    display: flex;
+    position: relative;
+    font-weight: bold;
+}
+
+.interestsForm {
+    position: absolute;
+    top:-12px;
+    left: 100px;
+}
+
+.interestsForm input[type=text] {
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 2px;
+    width: 115px;
+    height: 16px;
+    background: #f3f3f3;
+    border: 1px solid #cecece;
+}
+
+.interestsForm button{
+    font-size: 16px;
+    border: none;
+    color: #999999;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.interests2Block {
+    width: 300px;
+    height: 70px;
+    overflow-y: auto;
+}
+
+.interests2Block button {
+    height: 25px;
+    margin-top: 7px;
+    margin-right: 4px;
+    cursor: pointer;
+    color: #006699;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.interests2Block button:hover {
+    color: black;
+    background: #f3f3f3;
+}

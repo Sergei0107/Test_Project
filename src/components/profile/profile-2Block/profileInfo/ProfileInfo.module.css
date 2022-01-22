@@ -1,0 +1,74 @@
+p {
+    width: fit-content;
+}
+
+p input[type=text], p input[type=number] {
+    position: absolute;
+    font-size: inherit;
+    padding: 0 0 0 5px;
+    border: none;
+    box-shadow: -1px 0, 0 -1px, 1px 0, 0 1px;
+}
+
+.measuredDiv {
+    font-size: inherit;
+    background-color: #999999;
+    visibility: hidden;
+}
+
+.generalInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 87px;
+}
+
+.centerBlock {
+    align-items: center;
+}
+
+.generalInfo p:first-child {
+    font-size: 23px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.generalInfo p:last-child {
+    font-size: 11px;
+    margin-top: 0;
+    color: #999999;
+}
+
+.personalInfo {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.personalInfoElem1 {
+    position: relative;
+    font-weight: bold;
+    width: 160px;
+}
+
+.indent {
+    padding-left: 20px;
+}
+
+.personalInfoElem2 {
+    position: relative;
+    width: 150px;
+}
+
+.personalInfoElem1 p, .personalInfoElem2 p {
+    line-height: 12px;
+    margin-top: 0;
+}
+
+.personalInfoElem1 span {
+    position: absolute;
+    line-height: 12px;
+    bottom: 0;
+}
+
+

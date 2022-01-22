@@ -1,0 +1,64 @@
+.tabs {
+    display: flex;
+    height: 32px;
+    font-size: 14px;
+}
+
+.tab1Wrapper, .tab2Wrapper {
+    position: relative;
+}
+
+.tab2Wrapper {
+    margin-left: 9px;
+}
+
+.tab1, .tab2 {
+    background: #0685b4;
+    line-height: 32px;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.38);
+}
+
+.tab1Wrapper, .tab1, .tab2Wrapper, .tab2 {
+    border-radius: 4px 4px 0 0;
+}
+
+.tab1Wrapper, .tab1 {
+    width: 92px;
+}
+
+.tab2Wrapper, .tab2 {
+    width: 169px;
+}
+
+.tab1 a, .tab2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tab1 a {
+    padding: 8px 16px 9px;
+}
+
+.tab2 a {
+    padding: 8px 16px 9px 15px;
+
+}
+
+@-moz-document url-prefix() {
+    .tab2 a {
+        padding: 8px 16px 9px 10px;
+    }
+}
+
+.tab1 a.active, .tab2 a.active {
+    cursor: default;
+    text-shadow: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px 4px 0 0;
+    box-shadow: -1px 0 3px rgba(0, 0, 0, 0.31), 0 -1px 3px rgba(0, 0, 0, 0.31),
+    1px 0 3px rgba(0, 0, 0, 0.31);
+}
+
